@@ -5,7 +5,7 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    repo: https://github.com/princejaiswalcoder.git      
+    repo: https://github.com/princejaiswalcoder/ERA_RENAME_BOT.git    
     branch: main
     envVars:
       - key: BOT_TOKEN 
@@ -14,7 +14,7 @@ services:
         sync: false
       - key: API_HASH 
         sync: false
-      - key: FORCE_SUB 
+      - key: force_channel 
         sync: false
       - key: DB_NAME 
         sync: false
